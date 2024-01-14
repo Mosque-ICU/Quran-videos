@@ -18,9 +18,9 @@ export const RemotionRoot: React.FC = () => {
 
 					// Title settings
 					audioFileName: staticFile('audio.mp3'),
-					coverImgFileName: staticFile('cover.jpg'),
+					coverImgFileName: staticFile('cover.png'),
 					titleText:
-						'#234 – Money, Kids, and Choosing Your Market with Justin Jackson of Transistor.fm',
+						'#234 – Al-Baqara, (Arabic: الْبَقَرَة) "The Heifer" or "The Cow"',
 					titleColor: 'rgba(186, 186, 186, 0.93)',
 
 					// Subtitles settings
