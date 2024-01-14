@@ -14,7 +14,8 @@ export const RemotionRoot: React.FC = () => {
 				schema={AudioGramSchema}
 				defaultProps={{
 					// Audio settings
-					audioOffsetInSeconds: 6.9,
+					// audioOffsetInSeconds: 6.9,
+					audioOffsetInSeconds: 1,
 
 					// Title settings
 					audioFileName: staticFile('audio.mp3'),
@@ -37,7 +38,7 @@ export const RemotionRoot: React.FC = () => {
 					waveLinesToDisplay: 29,
 					waveNumberOfSamples: '256', // This is string for Remotion controls and will be converted to a number
 					mirrorWave: true,
-					durationInSeconds: 29.5,
+					durationInSeconds: 39.5,
 				}}
 				// Determine the length of the video based on the duration of the audio file
 				calculateMetadata={({ props }) => {
