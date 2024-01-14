@@ -9,7 +9,7 @@ export const RemotionRoot: React.FC = () => {
 				id="Audiogram"
 				component={AudiogramComposition}
 				fps={fps}
-				width={1080}
+				width={1920}
 				height={1080}
 				schema={AudioGramSchema}
 				defaultProps={{
@@ -20,7 +20,7 @@ export const RemotionRoot: React.FC = () => {
 					audioFileName: staticFile('audio.mp3'),
 					coverImgFileName: staticFile('cover.png'),
 					titleText:
-						'#234 – Al-Baqara, (Arabic: الْبَقَرَة) "The Heifer" or "The Cow"',
+						'#2 – Al-Baqara, (Arabic: الْبَقَرَة) "The Heifer" or "The Cow"',
 					titleColor: 'rgba(186, 186, 186, 0.93)',
 
 					// Subtitles settings

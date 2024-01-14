@@ -164,6 +164,14 @@ export const AudiogramComposition: React.FC<AudiogramCompositionSchemaType> = ({
 				<Sequence from={-audioOffsetInFrames}>
 					<Audio src={audioFileName} />
 
+					<Img
+						style={{ position: 'absolute', opacity: 0.3 }}
+						className="backgroundImage"
+						src={
+							'https://i.pinimg.com/originals/12/92/3b/12923b926ceb4bec14ed708118a4f165.jpg'
+						}
+					/>
+
 					<div
 						className="container"
 						style={{
@@ -171,14 +179,23 @@ export const AudiogramComposition: React.FC<AudiogramCompositionSchemaType> = ({
 						}}
 					>
 						<div className="row">
-							<Img className="cover" src={coverImgFileName} />
+							<Img
+								style={{ opacity: 0 }}
+								className="cover"
+								src={coverImgFileName}
+							/>
+							<Img
+								style={{ position: 'absolute' }}
+								className="cover"
+								src={coverImgFileName}
+							/>
 
 							<div className="title" style={{ color: titleColor }}>
 								{titleText}
 							</div>
 						</div>
 
-						<div>
+						{/* <div>
 							<AudioViz
 								audioSrc={audioFileName}
 								mirrorWave={mirrorWave}
@@ -187,7 +204,7 @@ export const AudiogramComposition: React.FC<AudiogramCompositionSchemaType> = ({
 								freqRangeStartIndex={waveFreqRangeStartIndex}
 								waveLinesToDisplay={waveLinesToDisplay}
 							/>
-						</div>
+						</div> */}
 
 						<div
 							style={{ lineHeight: `${subtitlesLineHeight}px` }}
