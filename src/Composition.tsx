@@ -218,7 +218,7 @@ export const AudiogramComposition: React.FC<AudiogramCompositionSchemaType> = ({
 								subtitlesTextColor={subtitlesTextColor}
 								subtitlesZoomMeasurerSize={subtitlesZoomMeasurerSize}
 								subtitlesLineHeight={subtitlesLineHeight}
-								onlyDisplayCurrentSentence={onlyDisplayCurrentSentence}
+								onlyDisplayCurrentSentence={false}
 							/>
 						</div>
 					</div>
